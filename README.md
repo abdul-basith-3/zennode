@@ -2,11 +2,9 @@
 ---
 
 Steps
-```
-1.In the repository,select code option.
-2.From code option,select Local then click on Download Zip
-3.Extract the Downloaded folder
-```
+1. In the repository,select code option.
+2. From code option,select Local then click on Download Zip
+3. Extract the Downloaded folder
 ### Executing the javascript program
 Steps
 ```
