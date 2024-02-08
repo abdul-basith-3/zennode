@@ -86,15 +86,15 @@ function find_discount_name(max_discount){
      }
 }
 
-let a=parseInt(prompt("Enter the unit of PRODUCT A")) || 0;
+let a=parseInt(prompt("Enter the unit of PRODUCT A($20)")) || 0;
 if(a!=0){
      wrap_a = confirm("Are you ok with wraping the product");
 }
-let b=parseInt(prompt("Enter the unit of PRODUCT B")) || 0;
+let b=parseInt(prompt("Enter the unit of PRODUCT B($40)")) || 0;
 if(b!=0){
      wrap_b = confirm("Are you ok with wraping the product");
 }
-let c=parseInt(prompt("Enter the unit of PRODUCT C")) || 0;
+let c=parseInt(prompt("Enter the unit of PRODUCT C($50)")) || 0;
 if(c!=0){
      wrap_c = confirm("Are you ok with wraping the product");
 }
@@ -129,11 +129,11 @@ if(c!=0){
     console.log("Product_C      "+c+"           "+Product_C*c);
 }
 console.log("");
-console.log("Subtotal"+"                   "+cart_total_amount);
+console.log("Subtotal"+"                   $"+cart_total_amount);
 console.log("");
 console.log("Discount name : "+discount_name);
-console.log("Discount amount : "+max_discount);
-console.log("Shipping fee : "+shipping_fee);
-console.log("Gift wrap fee : "+wrap_amount);
+console.log("Discount amount : $"+max_discount);
+console.log("Shipping fee : $"+shipping_fee);
+console.log("Gift wrap fee : $"+wrap_amount);
 console.log("");
-console.log("Total : "+total_amount);
+console.log("Total : $"+total_amount);

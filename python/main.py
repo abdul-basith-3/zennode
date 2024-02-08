@@ -75,7 +75,7 @@ if __name__ == '__main__':
         'tiered_50_discount': 0
     }
     wrap_a, wrap_b, wrap_c = 0, 0, 0
-    a = int(input("Enter the unit of PRODUCT A :"))
+    a = int(input("Enter the unit of PRODUCT A($20) :"))
     if a:
          wrap_a = input("Do you want to wrap the product (y/n) :")
          if wrap_a=='y' or wrap_a=='Y':
@@ -85,7 +85,7 @@ if __name__ == '__main__':
          else :
              print("wrong choice")
              exit()
-    b = int(input("Enter the unit of PRODUCT B :"))
+    b = int(input("Enter the unit of PRODUCT B($40) :"))
     if b:
         wrap_b = input("Do you want to wrap the product (y/n) :")
         if wrap_b == 'y' or wrap_b == 'Y':
@@ -95,7 +95,7 @@ if __name__ == '__main__':
         else:
             print("wrong choice")
             exit()
-    c = int(input("Enter the unit of PRODUCT C :"))
+    c = int(input("Enter the unit of PRODUCT C($50) :"))
     if c:
         wrap_c = input("Do you want to wrap the product (y/n) :")
         if wrap_c == 'y' or wrap_c == 'Y':
@@ -130,10 +130,10 @@ if __name__ == '__main__':
     if c:
         print("PRODUCT C            " + str(c) + "                  " + str(product['Product C'] * c))
     print()
-    print(f"SUBTOTAL :{cart_total_amount}")
+    print(f"SUBTOTAL :${cart_total_amount}")
     print(f"DISCOUNT NAME :{discount_name}")
-    print(f"DISCOUNT AMOUNT :{max_discount}")
-    print(f"SHIPPING FEE :{shipping_fee}")
-    print(f"GIFT WRAP FEE :{total_wrap_amount}")
+    print(f"DISCOUNT AMOUNT :${max_discount}")
+    print(f"SHIPPING FEE :${shipping_fee}")
+    print(f"GIFT WRAP FEE :${total_wrap_amount}")
     print()
-    print(f"TOTAL :{total_amount}")
+    print(f"TOTAL :${total_amount}")
